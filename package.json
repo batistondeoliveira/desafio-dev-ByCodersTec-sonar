@@ -1,0 +1,20 @@
+{
+  "name": "desafio-dev-bycoderstec-sonar",
+  "version": "1.0.0",
+  "description": "Projeto sonarqube para armazenar as analises de codigo do desafio do projeto [desafio-dev-ByCodersTec](https://github.com/batistondeoliveira/desafio-dev-ByCodersTec-sonar)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/batistondeoliveira/desafio-dev-ByCodersTec-sonar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/batistondeoliveira/desafio-dev-ByCodersTec-sonar/issues"
+  },
+  "homepage": "https://github.com/batistondeoliveira/desafio-dev-ByCodersTec-sonar#readme"
+}
