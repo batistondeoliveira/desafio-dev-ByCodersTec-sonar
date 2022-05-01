@@ -4,7 +4,8 @@
   "description": "Projeto sonarqube para armazenar as analises de codigo do desafio do projeto [desafio-dev-ByCodersTec](https://github.com/batistondeoliveira/desafio-dev-ByCodersTec-sonar)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/batistondeoliveira/desafio-dev-ByCodersTec-sonar/issues"
   },
-  "homepage": "https://github.com/batistondeoliveira/desafio-dev-ByCodersTec-sonar#readme"
+  "homepage": "https://github.com/batistondeoliveira/desafio-dev-ByCodersTec-sonar#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.4",
+    "@commitlint/config-conventional": "^16.2.4",
+    "husky": "^7.0.4"
+  }
 }
